@@ -1,0 +1,8 @@
+D:\BSTU\5_semestr\TPO\TPO\lab7\lab7_calc\lab7_calc\bin\Debug\lab7_calc.exe.config
+D:\BSTU\5_semestr\TPO\TPO\lab7\lab7_calc\lab7_calc\bin\Debug\lab7_calc.exe
+D:\BSTU\5_semestr\TPO\TPO\lab7\lab7_calc\lab7_calc\bin\Debug\lab7_calc.pdb
+D:\BSTU\5_semestr\TPO\TPO\lab7\lab7_calc\lab7_calc\obj\Debug\lab7_calc.csproj.AssemblyReference.cache
+D:\BSTU\5_semestr\TPO\TPO\lab7\lab7_calc\lab7_calc\obj\Debug\lab7_calc.csproj.SuggestedBindingRedirects.cache
+D:\BSTU\5_semestr\TPO\TPO\lab7\lab7_calc\lab7_calc\obj\Debug\lab7_calc.csproj.CoreCompileInputs.cache
+D:\BSTU\5_semestr\TPO\TPO\lab7\lab7_calc\lab7_calc\obj\Debug\lab7_calc.exe
+D:\BSTU\5_semestr\TPO\TPO\lab7\lab7_calc\lab7_calc\obj\Debug\lab7_calc.pdb
