@@ -17,8 +17,8 @@ public class JDBC_EX1
     public static void main( String[] args ) throws ClassNotFoundException {
         Class.forName("com.mysql.cj.jdbc.Driver");
         String url = "jdbc:mysql://localhost:3306/dictionaryDatabase";
-        String username = "root";
-        String password = "Kravchenko1";
+        String username = "Lexa";
+        String password = "4124ffff4124";
 
         try (Connection connection = DriverManager.getConnection(url, username, password)) {
             System.out.println("We're connected");

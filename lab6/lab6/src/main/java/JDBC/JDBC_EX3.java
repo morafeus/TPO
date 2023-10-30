@@ -4,8 +4,8 @@ import java.sql.*;
 import java.util.Scanner;
 
 public class JDBC_EX3 {
-    private static final String username = "root";
-    private static final String password = "Kravchenko1";
+    private static final String username = "Lexa";
+    private static final String password = "4124ffff4124";
 
     public static void main(String[] args) throws ClassNotFoundException {
         Class.forName("com.mysql.cj.jdbc.Driver");

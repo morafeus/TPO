@@ -7,11 +7,11 @@ import java.util.*;
 public class Main {
     public static void main(String[] args)
     {
-        Vegetable cucumber = new Vegetable("cucumber", 15,3);
-        Vegetable onion = new Vegetable("onion", 40,2);
-        Vegetable cabbage = new Vegetable("cabbage",25 ,6);
-        Vegetable carrot = new Vegetable("carrot", 41,12);
-        Vegetable tomatoes = new Vegetable("tomatoes", 25,6);
+        Vegetable cucumber = new Vegetable("огурец", 15,3);
+        Vegetable onion = new Vegetable("буряк", 40,2);
+        Vegetable cabbage = new Vegetable("картошку",25 ,6);
+        Vegetable carrot = new Vegetable("красный лук сладкий", 41,12);
+        Vegetable tomatoes = new Vegetable("овощи", 25,6);
 
         List<Vegetable> mySalad = new ArrayList<Vegetable>();
         mySalad.add(cabbage);
