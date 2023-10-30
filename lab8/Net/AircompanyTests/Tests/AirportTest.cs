@@ -56,7 +56,7 @@ namespace AircompanyTests.Tests
         }
 
         [Test]
-        public void MyTest3()
+        public void TestCheckSortCorrect()
         {
             Airport airport = new Airport(planes);
             airport = airport.SortByMaxLoadCapacity();
