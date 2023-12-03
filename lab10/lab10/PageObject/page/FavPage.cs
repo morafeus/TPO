@@ -19,14 +19,14 @@ namespace lab10.PageObject.page
 
 		public void GoToFav()
 		{
-			driver.FindElement(By.XPath("/html/body/div[1]/div[1]/header/div[2]/nav/div[2]/a")).Click();
+			driver.FindElement(By.XPath("//*[@id=\"__next\"]/div[1]/header/div[2]/nav/div[1]/a")).Click();
 		}
 
 		public void CheckBook()
 		{
 			try
 			{
-				driver.FindElement(By.XPath("//*[@id=\"__next\"]/div[1]/div[3]/div/div[2]/div[3]/div/div/div[2]/div[2]/button")).Click(); // это короче корзина пуста. надо будет чтобы это нельзя найти.
+				driver.FindElement(By.XPath("//*[@id=\"liked-arts\"]/div[3]/div")).Click(); // это короче корзина пуста. надо будет чтобы это нельзя найти.
 			}
 			catch
 			{

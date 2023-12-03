@@ -20,10 +20,13 @@ namespace lab10.PageObject.page
 		public void PickFirstBook()
 		{
 			driver.FindElement(By.XPath("//*[@id=\"__next\"]/div[1]/header/div[3]/nav/div/div[4]/a")).Click();
-			driver.FindElement(By.XPath("//*[@id=\"editors_choice\"]/div/div/div[1]/div[1]/div[1]")).Click();
+			//driver.FindElement(By.XPath("//*[@id=\"editors_choice\"]/div/div/div[1]/div[1]/div[1]")).Click();
+			driver.Navigate().GoToUrl("https://www.litres.ru/audiobook/donato-karrizi/dom-ogney-69970498/");
+		
+
 			try
 			{
-				driver.FindElement(By.XPath("//*[@id=\"book-card__wrapper\"]/div[2]/div[2]/div/div[2]/div[4]/div/div[2]/div[3]/button")).Click();
+				driver.FindElement(By.XPath("//*[@id=\"book-card__wrapper\"]/div[1]/ul/li[2]/button")).Click();
 			}
 			catch
 			{
@@ -40,7 +43,7 @@ namespace lab10.PageObject.page
 			}
 			catch
 			{
-				driver.FindElement(By.XPath("//*[@id=\"modal\"]/div[4]/div/div/div/div/div[1]")).Click();
+				driver.FindElement(By.XPath("/html/body/div[3]/div[5]/div/div/div/div/div[1]/div/svg/use")).Click();
 
 			}
 		}

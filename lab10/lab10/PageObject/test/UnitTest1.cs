@@ -29,7 +29,7 @@ namespace lab10.PageObject.test
             mainPage.Open();
 
             audioBookPage.PickFirstBook();
-            audioBookPage.AddToFav();
+           // audioBookPage.AddToFav();
             
             favPage.GoToFav();
             favPage.CheckBook();
